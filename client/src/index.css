@@ -1,0 +1,195 @@
+body{
+    background: #303030;
+    color: #fff;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 16px);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    border-top: 2px solid #00d9ff;
+    border-left: 2px solid #00d9ff;
+    border-right: 2px solid #af57ff;
+    border-bottom: 2px solid #af57ff;
+    padding: 20px 0;
+}
+header > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+header > a {
+    width: 120px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+header > div{
+    margin-right: 30px;
+}
+header > a > span:first-child{
+    color: #af57ff;
+}header > a > span:last-child{
+    color: #00d9ff;
+}
+
+header > div > button{
+    color: #fff;
+}
+header > div > button{
+    background: none;
+    border: none;
+    font-size: 21px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+header > div > button:hover{
+    text-decoration: underline;
+}
+
+.auth__block,
+.auth__block__inputs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.auth__block {
+    border-top: 2px solid #00d9ff;
+    border-left: 2px solid #00d9ff;
+    border-right: 2px solid #af57ff;
+    border-bottom: 2px solid #af57ff;
+    padding: 25px;
+    width: fit-content;
+    margin: auto;
+}
+.auth__block > span{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.auth__block h1{
+    padding: 0;
+    margin: 0;
+}
+.auth__block__inputs > input,
+.block__inputs > input,
+.auth__block__buttons > button{
+    outline: none;
+}
+.auth__block__inputs {
+    gap: 15px;
+}
+.auth__block__inputs > input,
+.block__inputs > input{
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-right: 2px solid #af57ff;
+    border-bottom: 2px solid #af57ff;
+    background: none;
+    color: #fff;
+    background: #ffffff0f;
+}
+.block__inputs{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.block__inputs > input{
+    width: 100%;
+    border-right: 2px solid #00d9ff;
+    padding: 14px 20px;
+    font-size: 18px;
+}
+.auth__block__inputs > input:nth-child(2n){
+    border-right: 2px solid #00d9ff;
+    border-bottom: 2px solid #00d9ff;
+}
+.auth__block__buttons{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+.auth__block__buttons > button{
+    border: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    color: #fff;
+    background: #af57ff;
+    cursor: pointer;
+    
+}
+
+.auth__block__buttons > button:nth-child(2n){
+    background: #00d9ff;
+}
+
+table {
+    max-width: 800px;
+    border: 2px solid #fff;
+    text-align: left;
+    border-collapse: collapse;
+}
+table{
+    margin: 0 auto;
+    margin-top: 21.5px;
+}
+.LinkCard{margin: 0 auto;}
+th{
+    font-size: 21px;
+}
+td{
+    font-size: 18px;
+    border-top: 1px solid #919191;
+}
+th, td{
+    padding: 18px 10px;
+}
+.LinkCard{
+    max-width: 800px;
+    width: 100%;    
+}
+.LinkCard p
+.LinkCard a{
+    font-size: 18px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    border-top: 1px solid #fff;
+    padding: 50px 0px;
+    color: #fff;
+    margin-top: auto;
+}
+footer > h4{
+    margin: 0;
+    margin-bottom: 5px;
+}

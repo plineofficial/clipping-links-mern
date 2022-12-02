@@ -1,0 +1,6 @@
+{
+    "port" : 5000,
+    "jwtSecret": "pline123",
+    "mongUri" : "mongodb+srv://Name:Password@cluster0.wu0swsa.mongodb.net/?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
